@@ -30,7 +30,7 @@ image: waterloop/wio-images:boost-cpp
 
 ## AVR Image
 Contains build tools for native and embedded development.
-Image includes avr and build-essential
+Image just includes avr and build-essential
 
 Usage: (Replace frist line in yml file)
 ```

@@ -19,7 +19,7 @@ build:
     - wio build -all
 ```
 
-## Boost-CPP Image
+## Boost (C++) Image
 Contains build tools for native, pod systems.
 Image just includes boost and build-essential
 

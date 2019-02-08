@@ -9,8 +9,6 @@ RUN apt-get install -y npm nodejs wget git cmake make gcc clang build-essential
 RUN npm install -g wio --unsafe-perm
 
 # Install AVR Build Tools
-RUN apt-get install -y gcc-avr avr-libc avrdude python-dev python-pip
-RUN npm install -g release-it --unsafe-perm 
-RUN pip install shyaml
+RUN apt-get install -y gcc-avr avr-libc avrdude
 
 CMD ["/bin/sh"]

@@ -10,5 +10,7 @@ RUN npm install -g wio --unsafe-perm
 
 # Install C++ Build Tools
 RUN apt-get install -y libboost-all-dev
+RUN apt-get install -y libprotobuf-dev libprotobuf10 libprotoc-dev libprotoc10
+protobuf-compiler
 
 CMD ["/bin/sh"]
